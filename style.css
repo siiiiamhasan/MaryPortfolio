@@ -146,3 +146,25 @@ a {
 .aboutmeContent ul li strong {
   color: #474747;
 }
+
+.whatIDo {
+  margin-top: 100px;
+  text-align: center;
+  
+}
+.whatIDo h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.whatIDo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #757575;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.8;
+}
