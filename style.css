@@ -100,7 +100,6 @@ a {
 }
 .benner .Cintract {
   color: #fd6e0a;
-
   font-size: 20px;
   font: bold;
   width: 150px;
@@ -109,4 +108,41 @@ a {
   border-radius: 5px;
   cursor: pointer;
   margin-left: 20px;
+}
+.About {
+  margin-top: 80px;
+  background-color: #fff8f3;
+  height: 550px;
+  text-align: center;
+  padding: 30px;
+}
+.aboutmeContent {
+  margin-top: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+.aboutmeContent h2 {
+  font-size: 35px;
+  padding-top: 80px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #181818;
+}
+.aboutmeContent p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+.aboutmeContent ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #757575;
+  line-height: 2;
+}
+.aboutmeContent ul li strong {
+  color: #474747;
 }
