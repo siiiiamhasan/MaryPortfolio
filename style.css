@@ -7,6 +7,9 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 a {
   color: inherit;
 }
@@ -37,10 +40,73 @@ a {
 }
 
 /* Benner */
-.devoloperImg{
-  margin-left: -13%;
-  margin-top: -6%;
-  width: 650px;
-  height: 100px;
+.bennerColor {
+  background-color: #fff8f3;
+  background-image: url(Image/heroModelBg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 40%;
+}
+.devoloperImg img {
+  width: 70px;
+  height: auto;
+}
+.devoloperImg {
+  position: absolute;
+  margin-left: -10%;
+  margin-top: -4%;
+}
+.benner {
+  display: flex;
+}
+.benner img {
+  width: 400px;
+  height: auto;
+  margin-right: -100px;
+  margin-bottom: -20px;
+  margin-top: 70px;
+}
+.benner h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #474747;
+}
+.leftBenner {
+  margin-top: 120px;
+}
+.benner h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #181818;
+}
+.benner p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  color: #181818;
+}
+.benner .downloadCV {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font: bold;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.benner .Cintract {
+  color: #fd6e0a;
 
+  font-size: 20px;
+  font: bold;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
 }
