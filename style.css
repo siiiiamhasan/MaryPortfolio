@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.hireMe {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font: bold;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Benner */
+.devoloperImg{
+  margin-left: -13%;
+  margin-top: -6%;
+  width: 650px;
+  height: 100px;
+
+}
