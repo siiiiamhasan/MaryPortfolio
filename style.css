@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +37,6 @@ a {
   border: none;
   border-radius: 5px;
 }
-
 /* Benner */
 .bennerColor {
   background-color: #fff8f3;
@@ -87,7 +85,7 @@ a {
   width: 70%;
   color: #181818;
 }
-.benner .downloadCV {
+.downloadCV {
   background-color: #fd6e0a;
   color: white;
   font-size: 20px;
@@ -146,7 +144,6 @@ a {
 .aboutmeContent ul li strong {
   color: #474747;
 }
-
 .whatIDo {
   margin-top: 100px;
   text-align: center;
@@ -157,7 +154,6 @@ a {
   font-weight: 700;
   color: #181818;
 }
-
 .whatIDo p {
   font-size: 18px;
   margin-bottom: 20px;
@@ -167,7 +163,6 @@ a {
   margin: 0 auto;
   line-height: 1.8;
 }
-
 /* Container for the cards */
 .card-container {
   display: flex;
@@ -177,7 +172,6 @@ a {
   flex-wrap: wrap;
   padding: 40px;
 }
-
 /* Each card design */
 .card {
   background: white;
@@ -190,23 +184,19 @@ a {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-
 .card img {
   margin-bottom: 15px;
 }
-
 .card h2 {
   font-size: 20px;
   color: #181818;
   margin-bottom: 10px;
 }
-
 .card p {
   font-size: 14px;
   color: #757575;
   line-height: 1.5;
 }
-
 /* Hover effect */
 .card:hover {
   transform: translateY(-10px);
@@ -220,7 +210,7 @@ a {
 }
 .summaryOfResume {
   display: flex;
-  margin:  80px 0 80px 0;
+  margin: 80px 0 40px 0;
   gap: 50px;
 }
 .MyExperience h2,
@@ -229,17 +219,14 @@ a {
   font-weight: bold;
   color: #474747;
 }
-
 .Border {
   border-bottom: #c0c0c0 1px solid;
 }
-
 .MyExperience ul li,
 .MyEducation ul li {
   margin-bottom: 50px;
   padding-bottom: 20px;
 }
-
 .MyExperience ul li h3,
 .MyEducation ul li h3 {
   font-size: 25px;
@@ -260,8 +247,67 @@ a {
   color: #757575;
   margin-bottom: 5px;
 }
-
 .MyExperience ul,
 .MyEducation ul {
   padding-top: 50px;
+}
+.downloadCVBottom {
+  text-align: center;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+/* footer */
+.Footercontant {
+  display: flex;
+  margin: 30px 0 80px 0;
+}
+.footer {
+  background-color: #fff8f3;
+}
+.sociallink a {
+  margin-right: 5px;
+}
+.leftFooter {
+  margin-top: 80px;
+}
+.leftFooter h2 {
+  text-align: start;
+  color: #181818;
+}
+.leftFooter p {
+  text-align: start;
+  margin: 30px 0 20px 0;
+  color: #757575;
+  width: 60%;
+}
+/* Form */
+form {
+  padding: 25px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #f88c3e;
+}
+.copywright {
+  text-align: center;
 }
