@@ -168,3 +168,48 @@ a {
   margin: 0 auto;
   line-height: 1.8;
 }
+
+/* Container for the cards */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+/* Each card design */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  width: 250px;
+  height: 400px;
+  text-align: start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card img {
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #757575;
+  line-height: 1.5;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
