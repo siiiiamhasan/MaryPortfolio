@@ -169,15 +169,15 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  flex-wrap: wrap;
-  padding: 40px;
-}
+  flex-wrap: nowrap; 
+  overflow-x: auto;}
 /* Each card design */
 .card {
   background: white;
   border-radius: 15px;
-  padding: 25px;
-  width: 250px;
+  margin: 50px 0;
+  padding: 20px;
+  width: 240px;
   height: 400px;
   text-align: start;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -188,6 +188,7 @@ a {
   margin-bottom: 15px;
 }
 .card h2 {
+  text-align: start;
   font-size: 20px;
   color: #181818;
   margin-bottom: 10px;
